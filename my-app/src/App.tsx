@@ -1,5 +1,4 @@
 import React, { useState, ChangeEvent } from "react";
-import "./App.css";
 import Routes from "./Routes";
 import UserContext from "./contexts/UserContext";
 

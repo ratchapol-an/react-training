@@ -10,6 +10,9 @@ const Home: React.FC = () => {
       <li>
         <Link to="/todo-v2">TodoV2</Link>
       </li>
+      <li>
+        <Link to="/customer">Customer</Link>
+      </li>
     </ul>
   );
 };

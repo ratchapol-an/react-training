@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Todo from "./pages/Todo";
 import TodoV2 from "./pages/TodoV2";
-import Home from './pages/Home';
+import Home from "./pages/Home";
+import Customer from "./pages/Customer";
 
 const Routes = () => {
   return (
@@ -17,7 +18,9 @@ const Routes = () => {
         <Route path="/todo-v2">
           <TodoV2 title="Todo" version={2} />
         </Route>
-        <Route path="/customer" />
+        <Route path="/customer">
+          <Customer />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
