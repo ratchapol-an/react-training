@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Todo from "./pages/Todo";
 import TodoV2 from "./pages/TodoV2";
 import Home from "./pages/Home";
-import Customer from "./pages/Customer";
+import Customer from './pages/Customer';
 
 const Routes = () => {
   return (
